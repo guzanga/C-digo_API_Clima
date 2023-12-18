@@ -1,0 +1,272 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+*{
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Lexend Giga', sans-serif;
+}
+
+.tudinho{
+  margin: 0px;
+  padding: 0px;
+}
+
+.header{
+  transition-duration: 0.90s;
+  background: #ffffff url(/public/HeaderClima.webp) center center/cover no-repeat;
+  text-align: center;
+}
+
+.tudo{
+  transition-duration: 0.90s;
+  background-color: #D1EEFA;
+}
+
+.inp{
+  height: 30px;
+  width: 250px;
+  margin: 12px;
+  border-radius: 5px;
+
+  border: solid 1.5px;
+}
+
+.bb{
+
+  height: 30px;
+  width: 40px;
+  border-radius: 3px;
+  background-color: #b9eab9;
+  border: solid 1.5px;
+  text-align: center;
+}
+
+
+.maior{
+  transition-duration: 0.90s;
+  background-color: white;
+  margin: 60px;
+  min-height: 550px;
+  height: 400px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  width: 1000px;
+  min-width: 70%;
+  max-width: 70%;
+
+}
+
+
+.divsinha{
+  transition-duration: 0.90s;
+  background-color: #EDF4F6;
+  border-radius: 7px;
+  border: none;
+  height:150px;
+  min-width: 100px;
+  max-width: 300px;
+  margin: 10px;
+}
+
+.divsona{
+  transition-duration: 0.90s;
+  background-color: #FFFFFA;
+  border-radius: 7px;
+  width: 200px;
+  height: 220px;
+  margin: 10px;
+}
+
+.divsona:hover{
+  transform: scale(1.05);
+  background-color: #FEED93;
+  transition-duration: 0.90s;
+}
+
+.aqui{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.gerar{
+  max-width: 100%;
+  overflow-x: scroll;
+  display: flex;
+}
+
+*::-webkit-scrollbar{
+  width: 10px;
+  height: 10px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #ffffff;
+  border-radius: 7px;
+}
+
+*::-webkit-scrollbar-track {
+  background-color: #1b3a80;
+}
+
+.quadros{
+  background-color: white;
+  border-radius: 20px;
+  height: 230px;
+  width: 150px;
+  margin: 30px;
+  transition-duration: 0.90s;
+}
+
+.quadros:hover{
+  transform: scale(1.05);
+  background-color: #FEED93;
+  transition-duration: 0.90s;
+}
+
+.branco{
+  color: white;
+}
+
+.lupa{
+  height: 22px;
+  width: 22px;
+}
+
+.logo{
+  transition-duration: 0.90s;
+  height: 60px;
+}
+
+.logonoite{
+  display: none;
+}
+
+
+.centro{
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.nuvem{
+  height: 100px;
+  width: 200px;
+}
+
+.nuvem2{
+  height: 40px;
+  width: 100px;
+}
+
+.lado{
+
+  justify-content: center;
+  align-items: center;
+  border: none;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.lado2{
+  justify-content: center;
+  align-items: center;
+}
+
+.cor{
+  color: black;
+}
+
+.tema{
+  background-color: rgba(97, 218, 251, 0);
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+
+}
+
+.sun{
+  transition-duration: 0.90s;
+  height: 40px;
+  padding: 2px;
+  width: 40px;
+}
+
+.moon{
+  transition-duration: 0.90s;
+  display: none;
+  height: 40px;
+  width: 40px;
+}
+
+
+
+/*modo escuro*/
+
+.noturno .header {
+  transition-duration: 0.90s;
+  background: #ffffff url(/public/HeaderNoiteEscuro.webp) center center/cover no-repeat;
+}
+
+.noturno .sun{
+  transition-duration: 0.90s;
+  display: none;
+  transform: rotate(360deg)
+}
+
+.noturno .moon{
+  transition-duration: 0.90s;
+  display: block;
+  transform: rotate(360deg)
+}
+
+.noturno .tudo {
+  background-color: #1f033b;
+  transition-duration: 0.90s;
+  transform: rotate(360deg)
+}
+
+.noturno .quadros:hover{
+  background-color: #7567d0;
+  transition-duration: 0.90s;
+  transform: scale(1.05);
+
+}
+
+.noturno .logo{
+  display: none;
+  height: 0px;
+}
+
+.noturno .logonoite{
+  transition-duration: 0.90s;
+  height: 65px;
+  display: block;
+}
+
+.noturno .bb{
+  transition-duration: 0.90s;
+  background-color: #518ecc;
+}
+
+.noturno .divsona:hover{
+  background-color: #7567d0;
+  transition-duration: 0.90s;
+  transform: scale(1.05);
+}
